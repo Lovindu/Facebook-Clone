@@ -1,0 +1,22 @@
+.sidebarOption {
+    display: flex;
+    align-items: center;
+    max-width: 324px;
+    line-height: 16px;
+    height: 52px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.sidebarOption:hover {
+    background-color: #E4E6EB;
+}
+
+.sidebarOption > img {
+    margin: 10px;
+}
+
+.sidebarOption > p {
+    font-weight: 550;
+    font-size: 15px;
+}

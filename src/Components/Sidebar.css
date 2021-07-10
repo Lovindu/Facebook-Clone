@@ -1,0 +1,29 @@
+.sidebar__user {
+    display: flex;
+    align-items: center;
+    max-width: 324px;
+    line-height: 16px;
+    height: 52px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+.sidebar__user:hover {
+    background-color: #E4E6EB;
+}
+
+.sidebarUser__avatar {
+    margin: 10px;
+}
+
+.sidebar__user > p {
+    font-weight: 550;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+}

@@ -1,0 +1,39 @@
+.feed{
+    max-width: 744px;
+    height: 100vh;
+    overflow-y: scroll;
+} 
+
+.feed::-webkit-scrollbar {
+    display: none;
+}
+
+.modal__image {
+    height: 60px;
+}
+
+.feed__from {
+    display: flex;
+    flex-direction: column;
+}
+
+.feed__buttons {
+    margin-left: 50%;
+    margin-bottom: 10px;
+}
+
+.feed__button {
+    text-transform: inherit !important;
+}
+
+.login__error {
+    margin-left: 35%;
+}
+
+@media screen and (max-width:768px) {
+    .feed {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10%;
+    }
+}

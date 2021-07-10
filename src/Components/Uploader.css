@@ -1,0 +1,151 @@
+.uploader {
+    width: 539px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.uploader__top {
+    display: flex;
+    margin-top: 5px;
+}
+
+.uploader__top > input {
+    border: none;
+    border-radius: 20px;
+    background-color: #F0F2F5;
+    color: #65676B;
+    font-size: 17px;
+    width: 500px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.uploader__top > input:hover {
+    background-color: #E4E6EB;
+}
+
+.uploader__top > input:focus {
+   outline: none;
+}
+
+.uploader__bottom {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-top: 1px solid #E4E6EB;
+    color: #65676B;
+}
+
+.uploader__bottomButton{
+    padding-top: 5px;
+    width: 170px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    border-radius: 7.5px;
+}
+
+.uploader__bottomButton:hover {
+    background-color: #F0F2F5;
+}
+
+.uploader__bottomButton > img {
+    height: 24px;
+    color: red;
+    padding-right: 10px;
+}
+
+.uploader__modaltop {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E4E6EB;
+}
+
+.uploader__modaltop > h3 {
+    margin-left: 140px;
+}
+
+.uploader__close{
+    margin-left: 110px;
+    padding: 10px;
+}
+
+.uploader__close:hover {
+    background-color: #E4E6EB;
+    border-radius: 50px;
+}
+
+.uploader__modalbottom {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.uploader__modalbottom > progress {
+    width: auto;
+}
+
+.modal__caption {
+    border: none;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.modal__caption:focus {
+    outline: none;
+} 
+
+.modal__postButton {
+    margin-top: 20px !important;
+    background-color: #1877F2 !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.uploader__modalUser {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.uploader__modalUser > p {
+    padding-left: 10px;
+    font-weight: 550;
+}
+
+@media screen and (max-width:480px) {
+    .uploader {
+        width: 330px;
+    }
+
+    .uploader__bottomButton{
+        padding-top: 5px;
+        width: 60px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .uploader__bottomButton > p {
+        display: none;
+    }
+    
+    .uploader__modaltop > h3 {
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    
+    .uploader__close{
+        margin-left: 18px;
+        padding: 10px;
+    }
+    
+    .modal__caption {
+        font-size: 13px;
+    }
+}
